@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+html {
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    height: 175px;
+    color: white;
+}
+header h1, header p {
+    margin: 0px;
+}
+header h1.big-title {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 45px;
+}
+header p.sub-title {
+    font-size: 26px;
+    font-weight: normal;
+    padding-top: 3px;
+}
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 19px;
+    justify-content: center;
+}
+footer p {
+    margin: 3px;
+}
+footer .copyright {
+    margin-top: 30px;
+}
+footer .version {
+    margin-bottom: 30px;
+}
+footer .me a:hover {
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    color: rgb(137, 171, 235);
+}
+footer .me a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(84, 116, 177);
+}
+footer .coeur:hover {
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    color: rgb(255, 0, 0);
+}
+
+
+main div.container {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #C4C4C4;
+    margin: 50px 20% 50px; 
+    padding-bottom: 50px;
+    color: white;
+    border-radius: 25px;
+}
+.categorie-container {
+    background-color: white;
+    width: 500px;
+    margin-top: 50px;
+}
+.profil {
+    height: 320px;
+}
+.formation {
+    height: 400px;
+}
+.contact {
+    height: 310px;
+}
+.experience {
+    height: 485px;
+}
+.competences {
+    height: 350px;
+}
+.outils {
+    height: 530px;
+}
+.langues {
+    height: 310px;
+}
+.langages {
+    height: 640px;
+}
+.loisirs {
+    height: 320px;
+}
+.categorie-container p.categorie-txt {
+    color: #666666;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.title-categorie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 80px;
+}
+.title-categorie, .categorie-container {
+    border-radius: 12px;
+}
+.title-categorie {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.title-categorie p {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+.formation-container, .contact-container, .exp-container  {
+    background-color: #C4C4C4;
+    color: #666666;
+    margin: 20px 20px;
+    padding-top: 5px;
+    padding-left: 10px;
+    border-radius: 12px;
+}
+.formation-container p.title, .contact-container p.title, .exp-container p.title{
+    color: black;
+    font-size: 24px;
+}
+.formation .licencetxt, .formation .duttxt, .formation .bactxt {
+    padding: 7px 0;
+    font-size: 20px;
+}
+
+.contact {
+    font-size: 20px;
+}
+.contact .email {
+    padding: 7px 0;
+    font-weight: bold;
+}
+.contact .email:hover {
+    color: rgb(84, 116, 177);
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+}
+.contact .adresse {
+    padding: 4px 0;
+}
+.experience {
+    font-size: 20px;
+}
+.experience .stagetxt, .experience .mctxt, .experience .sitetxt {
+    padding: 7px 0;
+}
+.experience a.this {
+    color: rgb(84, 116, 177);
+}
+.experience a {
+    text-decoration: none;
+    color: #FF5555;
+}
+.outils a.github {
+    text-decoration: none;
+    color: rgb(84, 116, 177);
+}
+.gray {
+    background-color: gray;
+    margin-left: 3px;
+}
+.whitegray {
+    background-color: rgb(199, 199, 199);
+    margin-left: 3px;
+}
+.black {
+    background-color: black;
+    margin-left: 3px;
+}
+.space {
+    margin-left: 12px;
+}
+.dot { 
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.bareme {
+    text-align: center;
+    font-weight: bold;
+    color:rgb(137, 171, 235);
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+.contact, .experience {
+    margin-top: 30px;
+}
+@media screen and (max-width: 1683px) {
+    .formation, .contact, .experience {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    main div.container {
+        margin: 0px 0% 0px;
+        border-radius: 0px;
+    }
+}
+@media screen and (max-width: 510px) {
+    .profil {
+        height: 345px;
+    }
+    .formation {
+        height: 410px;
+    }
+    .experience {
+        height: 510px;
+    }
+    .langues {
+        height: 335px;
+    }
+    .outils {
+        height: 555px;
+    }
+    .title-categorie, .categorie-container {
+        border-radius: 0px;
+    }
+    header h1.big-title {
+        font-size: 28px;
+    }
+    header p.sub-title {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-device-width : 370px) and (max-device-width : 480px) {
+    .profil {
+        height: 360px;
+    }
+    .formation {
+        height: 490px;
+    }
+    .experience {
+        height: 570px;
+    }
+    .title-categorie, .categorie-container {
+        border-radius: 0px;
+    }
+    .competences {
+        height: 385px;
+    }
+    .outils {
+        height: 665px;
+    }
+    .langages {
+        height: 700px;
+    }
+    header h1.big-title {
+        font-size: 28px;
+    }
+    header p.sub-title {
+        font-size: 24px;
+    }
+}
