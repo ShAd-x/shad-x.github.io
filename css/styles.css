@@ -272,6 +272,9 @@ main div.container {
     .experience {
         height: 570px;
     }
+    .contact {
+        height: 355px;
+    }
     .title-categorie, .categorie-container {
         border-radius: 0px;
     }
@@ -282,7 +285,7 @@ main div.container {
         height: 665px;
     }
     .langages {
-        height: 700px;
+        height: 270px;
     }
     header h1.big-title {
         font-size: 28px;
