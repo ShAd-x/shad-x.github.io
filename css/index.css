@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css);
+html {
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body .sub-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 80px;
+}
+
+body .sub-section-alternative {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+
+.hero {
+  background-color: #1c1d25;
+  height: 100vh;
+  color: white;
+  font-size: 40px;
+}
+
+.hero nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero nav .logo {
+  height: 80px;
+  margin: 30px;
+}
+
+.hero nav .hamburger {
+  display: none;
+}
+
+.hero nav .hamburger:focus {
+  outline: 0;
+}
+
+.hero nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 30px;
+}
+
+.hero nav li {
+  text-decoration: none;
+}
+
+.hero .hero-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .hero-area .socials {
+  padding-bottom: 200px;
+}
+
+.hero .hero-area .hero-text {
+  margin-left: 80px;
+  margin-bottom: 200px;
+}
+
+.hero .hero-area .hero-text .button {
+  width: 200px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: coral;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+.hero .hero-area .hero-text .button:hover {
+  background-color: #ef744b;
+}
+
+.hero .hero-area .hero-text .button:active {
+  background-color: #A9A9A9;
+  color: #808080;
+}
+
+.hero .hero-area .social {
+  margin: 20px;
+}
+
+section {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-size: 90px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+main .headshot {
+  width: 300px;
+  border-radius: 150px;
+  margin-left: 80px;
+}
+
+main .headshot-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .section-title {
+  margin-bottom: 40px;
+}
+
+.project-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.project-container .project-card {
+  width: 300px;
+  height: 480px;
+  -webkit-box-shadow: 5px 5px 20px #c5c3c3;
+          box-shadow: 5px 5px 20px #c5c3c3;
+  margin: 10px;
+}
+
+.project-container .project-card hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project-container .project-card .project-link {
+  text-decoration: none;
+  color: #ef744b;
+}
+
+.project-container .project-card .subtext {
+  font-size: 15px;
+  font-weight: 300;
+  padding: 0px 10px;
+}
+
+.project-container .project-card .firstsubtext {
+  margin-bottom: 15px;
+}
+
+.project-container .project-card .project-image {
+  margin-top: 30px;
+  width: 225px;
+  border-radius: 25px;
+}
+
+.project-container .project-card .rounded {
+  border-radius: 150px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+footer .contact {
+  padding: 0;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+footer .mail {
+  padding-bottom: 50px;
+}
+
+footer .version {
+  padding-bottom: 35px;
+}
+
+footer .version, footer .me {
+  font-size: 25px;
+}
+
+footer .me a:hover {
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+  color: #89abeb;
+}
+
+footer .me a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #5474b1;
+}
+
+footer .coeur:hover {
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+  color: red;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .sub-section {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .sub-section .information .profil-title {
+    margin-bottom: 10px;
+  }
+  .sub-section .headshot-container .headshot {
+    margin-left: 0;
+    margin-top: 55px;
+    width: 150px;
+  }
+  .hero nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    background-color: #2b2c38;
+  }
+  .hero nav .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  .hero nav ul {
+    display: none;
+    background-color: #2b2c38;
+    margin: 0ppx;
+  }
+  .hero nav ul.show {
+    display: block;
+  }
+  .hero .hero-area {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .hero .hero-area .hero-text {
+    margin-left: 40px;
+    margin-bottom: 0;
+  }
+  .hero .hero-area .socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0 auto;
+  }
+  .logo {
+    display: none;
+  }
+  h1 {
+    font-size: 60px;
+    margin: 0;
+  }
+  h2 {
+    margin: 0;
+    font-size: 27px;
+  }
+  p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  footer {
+    padding: 0;
+  }
+  footer .contact {
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  footer .mail {
+    padding-bottom: 30px;
+  }
+  footer .version {
+    padding-bottom: 30px;
+  }
+  footer .fa-envelope {
+    display: none;
+  }
+  footer .version, footer .me {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
+/*# sourceMappingURL=index.css.map */
