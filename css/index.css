@@ -174,7 +174,7 @@ main .section-title {
 }
 
 .project-container .project-card {
-  width: 300px;
+  width: 290px;
   height: 480px;
   -webkit-box-shadow: 5px 5px 20px #c5c3c3;
           box-shadow: 5px 5px 20px #c5c3c3;
@@ -262,6 +262,12 @@ footer .coeur:hover {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .project-container .project-card {
+    height: 440px;
+  }
+  .project-container .project-card .project-image {
+    width: 170px;
   }
   .sub-section {
     -ms-flex-wrap: wrap;
