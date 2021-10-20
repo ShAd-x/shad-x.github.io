@@ -161,6 +161,10 @@ main .headshot-container {
   display: flex;
 }
 
+main .section-title {
+  margin-bottom: 40px;
+}
+
 .project-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -171,7 +175,7 @@ main .headshot-container {
 
 .project-container .project-card {
   width: 300px;
-  height: 500px;
+  height: 480px;
   -webkit-box-shadow: 5px 5px 20px #c5c3c3;
           box-shadow: 5px 5px 20px #c5c3c3;
   margin: 10px;
@@ -190,12 +194,21 @@ main .headshot-container {
 .project-container .project-card .subtext {
   font-size: 15px;
   font-weight: 300;
+  padding: 0px 10px;
+}
+
+.project-container .project-card .firstsubtext {
+  margin-bottom: 15px;
 }
 
 .project-container .project-card .project-image {
-  margin-top: 25px;
-  width: 250px;
-  border-radius: 125px;
+  margin-top: 30px;
+  width: 225px;
+  border-radius: 25px;
+}
+
+.project-container .project-card .rounded {
+  border-radius: 150px;
 }
 
 footer {
@@ -254,10 +267,13 @@ footer .coeur:hover {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+  .sub-section .information .profil-title {
+    margin-bottom: 10px;
+  }
   .sub-section .headshot-container .headshot {
     margin-left: 0;
     margin-top: 55px;
-    width: 125px;
+    width: 150px;
   }
   .hero nav {
     display: -webkit-box;
@@ -314,11 +330,11 @@ footer .coeur:hover {
   }
   h2 {
     margin: 0;
-    font-size: 25px;
+    font-size: 27px;
   }
   p {
     margin: 0;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
   }
   footer {

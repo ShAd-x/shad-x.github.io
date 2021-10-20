@@ -120,6 +120,9 @@ main {
     .headshot-container {
         display: flex;
     }
+    .section-title {
+        margin-bottom: 40px;
+    }
 }
 .project-container {
     .project-card {
@@ -134,14 +137,21 @@ main {
         .subtext {
             font-size: 15px;
             font-weight: 300;
+            padding: 0px 10px;
+        }
+        .firstsubtext {
+            margin-bottom: 15px;
         }
         .project-image {
-            margin-top: 25px;
-            width: 250px;
-            border-radius: 125px;
+            margin-top: 30px;
+            width: 225px;
+            border-radius: 25px;
+        }
+        .rounded {
+            border-radius: 150px;
         }
         width: 300px;
-        height: 500px;
+        height: 480px;
         box-shadow: 5px 5px 20px rgb(197, 195, 195);
         margin: 10px;
     }
@@ -189,10 +199,13 @@ footer {
         flex-wrap: wrap;
     }
     .sub-section {
+        .information .profil-title {
+            margin-bottom: 10px;
+        }
         .headshot-container .headshot {
             margin-left: 0;
             margin-top: 55px;
-            width: 125px;
+            width: 150px;
         }
         flex-wrap: wrap;
     }
@@ -241,11 +254,11 @@ footer {
     }
     h2 {
         margin: 0;
-        font-size: 25px;
+        font-size: 27px;
     }
     p {
         margin: 0;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 300;
     }
     footer {
