@@ -150,7 +150,7 @@ main {
         .rounded {
             border-radius: 150px;
         }
-        width: 300px;
+        width: 290px;
         height: 480px;
         box-shadow: 5px 5px 20px rgb(197, 195, 195);
         margin: 10px;
@@ -195,6 +195,12 @@ footer {
 
 @media only screen and (max-width: 1000px) {
     .project-container {
+        .project-card {
+            .project-image {
+                width: 170px;
+            }
+            height: 430px;
+        }
         display: flex;
         flex-wrap: wrap;
     }
